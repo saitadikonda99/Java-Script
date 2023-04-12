@@ -26,7 +26,6 @@ function decrement() {
     }
 }
 
-
 // let's create a reset function
 
 function reset() {
