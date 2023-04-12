@@ -1,0 +1,29 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+#heading {
+    font-size: 50px;
+    margin-top: 10%;
+}
+
+#counter {
+        font-size: 50px;
+        margin: 50px 0px 0px 0px;
+}
+#but  {
+    background-color: white;
+    color: black;
+    font-size:20px;
+    padding: 10px 10px 10px 10px ;
+    margin: 5% 0px 0px 0px;
+    border-radius: 10px;
+}
+
