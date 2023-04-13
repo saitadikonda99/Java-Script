@@ -12,7 +12,6 @@ function increment() {
     Countdoc.innerText = count
 }
 
-
     // let's create decrement function
 function decrement() {
     count--
