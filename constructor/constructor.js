@@ -12,7 +12,7 @@ function Human( name , age ) {
 // let's create an object
 let human = new Human( "sai", 19)
 
-// print the name in using obj
+// print the name in using obj        
 console.log(human.name)
 
 // call the function which is in the constructor
