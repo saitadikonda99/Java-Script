@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Anuphan', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+ h1{
+    font-size: 50px;
+    margin : 30px;
+}
+
+.one, .two, .three {
+    border: 2px solid blue;
+    height: 50vh;
+    width : 22%;
+    margin: 6%;
+    background-color: rgb(248, 210, 216);
+}
+
+#event1{
+    font-size: 50px;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+#but1, #but2, #but3 {
+    padding: 10px 40px 10px 40px;
+    font-size: 30px;
+    margin: 60px ;
+    background-color: rgb(195, 228, 239);
+}
+
+

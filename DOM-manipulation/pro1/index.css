@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Anuphan', sans-serif;
+}
+
+body {
+    background-color: beige;
+}
+
+.container {
+    border: 2px solid black;
+    height: 60vh;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgb(245, 228, 228);
+}
+
+.main-box {
+    padding: 10px;
+    background-color: rgb(245, 228, 228);
+}
+
+.one-one, .two-two, .three-three, .four-four, .five-five{
+    border: 2px solid gainsboro;
+    padding: 10px;
+    font-size: 30px;
+    margin: 4px;
+}
+
+.one-one{
+    background-color: rgb(247, 204, 211);
+    margin-top: 20px;
+}
+
+.two-two {
+    background-color: rgb(198, 249, 198);
+}
+
+.three-three {
+    background-color: rgb(200, 238, 250);
+}
+
+.four-four {
+    background-color: rgb(243, 175, 175);
+}
+
+.five-five {
+    background-color: rgb(249, 249, 190);
+}

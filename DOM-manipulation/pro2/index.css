@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Anuphan', sans-serif;
+}
+
+body {
+    background-color: beige;
+}
+
+.container {
+    border: 2px solid black;
+    height: 65vh;
+    width: 40%;
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgb(245, 228, 228);
+}
+
+.main-one  {
+    margin : 10% 10% 8% 18%;
+}
+
+.main-two li {
+    border: 0.5px solid black;
+    list-style: none;
+    margin-top: 2%;
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: center;
+    padding: 15px;
+    font-size: 20 px;
+}
+
+.main-two li:nth-child(1) {
+    background-color: rgb(247, 204, 211);
+}
+
+.main-two li:nth-child(2) {
+    background-color: rgb(200, 238, 250);
+
+}
+
+.main-two li:nth-child(3) {
+    background-color: rgb(243, 175, 175);
+}
+
+.main-two li:nth-child(4) {
+    background-color: rgb(249, 249, 190);
+
+}
+
+.main-two li:nth-child(5) {
+    background-color: rgb(198, 249, 198);
+}
