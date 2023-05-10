@@ -16,7 +16,7 @@ step1( 10, (result1, error )=> {
                         console.log(`result : ${result3}`);
                     }
                 });
-            }
+            } 
         });
     }
 });
