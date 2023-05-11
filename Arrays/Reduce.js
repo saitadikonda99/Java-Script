@@ -24,5 +24,3 @@ let arr = [1, 3, 2, 4, 5, 6, 8];
     let result = arr.filter( n => n % 2 === 0)
         .map( n => n * 2)
         .reduce( (a, b) => a +b);
-
-        console.log(result);
