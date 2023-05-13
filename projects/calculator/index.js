@@ -46,7 +46,7 @@ for( let k=0; k<button.length; k++ ) {
             input.value = input.value.slice(0, -1);
         } else if( buttonText === '=') {
             const result = eval(input.value);
-            if(!isNaN) {
+            if(!isNaN(result)) {
                 input.value = result;
            } else {
                  input.value = 'Invalid';

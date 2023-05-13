@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(223, 141, 249);
+}
+
+.container {
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rebeccapurple;
+}
+
+#calendar {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(7, 150px);
+    gap: 3px;
+}
+
+ 
+.day {
+    background-color: rgb(210, 202, 252);
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: all 500ms;
+}
+
+.day:hover {
+    background-color: rgb(246, 158, 158);
+}
+
