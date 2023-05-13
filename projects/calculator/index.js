@@ -52,7 +52,7 @@ for( let k=0; k<button.length; k++ ) {
                  input.value = 'Invalid';
                     setTimeout(() => {
                         input.value = '';
-                            },2000);
+                            },1500);
            }
         } else {
             input.value += buttonText;
