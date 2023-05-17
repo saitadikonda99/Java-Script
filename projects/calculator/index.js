@@ -5,7 +5,7 @@ const main = document.getElementsByClassName('main-box')[0];
 const container = document.getElementsByClassName('container')[0];
 
 const input = document.createElement('input');
-input.classList.add('input-box');
+input.classList.add('input-box')       ;
 
 
 container.insertBefore(input, main);

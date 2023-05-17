@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anuphan', sans-serif;
+}
+/*  if dark mode is on  */
+
+.dark-mode {
+    background-color: rgb(37, 35, 35);
+    color: white;
+}
+
+.container {
+    height: 120vh;
+    width: 60%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+}
+
+.header {
+    font-size: 80px;
+}
+
+.in-Container {
+    height: 8vh;
+    min-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.in-box {
+    padding: 10px;
+    width: 80%;
+    color: white;
+    font-size: larger;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: .1px solid rgb(33, 156, 250);
+    background-color: rgb(37, 35, 35);
+}
+
+.button {
+    height: 5.6vh;
+    width: 16%;
+    font-size: medium;
+    background-color: salmon;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.time {
+    height: 2rem;
+    width: 30%;
+    text-align: center;
+}
+
+.theme {
+   margin: 0 10% 0 80%;
+   height: 10vh;
+   min-width: 15%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+ /* Light mode */
+.theme1 {
+    padding: 20px;
+    border-radius: 50%;
+    border: 0.1px solid gray;
+    background-image: url('light.png');
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* Dark mode */
+  .theme2 {
+    padding: 20px;
+    border-radius: 50%;
+    border: 0.1px solid gray;
+    background-image: url('dark.png');
+    background-size: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .task {
+    padding: 5px 20px;
+    width: 50%;
+    color: white;
+    font-size: larger;
+    border-radius: 20px;
+    border: .1px solid rgb(33, 156, 250);
+    background-color: rgb(37, 35, 35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+
+  .done, .deleted {
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+  }
+
+  .deleted {
+    background-image: url('delete.png');
+    background-size: 38px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .done {
+    background-image: url('done.png');
+    background-size: 38px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .work {
+    word-wrap: break-word;
+    max-width: 80%;
+  }
+
+
+  @media screen and ( max-width :650px ) {
+    .container {
+        height: 120vh;
+        width: 80%;
+        margin: auto;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .header {
+        font-size: 50px;
+    }
+    .time {
+        height: 2rem;
+        width: 80%;
+        text-align: center;
+    }
+    .in-box {
+        padding: 6px 20px;
+        width: 84%;
+        color: white;
+        font-size: larger;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: .1px solid rgb(33, 156, 250);
+        background-color: rgb(37, 35, 35);
+    }
+
+    .button {
+        height: 5.1vh;
+        width: 25%;
+        font-size: 14px;
+        background-color: salmon;
+        border: none;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .task {
+        padding: 5px 20px;
+        width: 50%;
+        color: white;
+        font-size: larger;
+        border-radius: 20px;
+        border: .1px solid rgb(33, 156, 250);
+        background-color: rgb(37, 35, 35);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+  }
