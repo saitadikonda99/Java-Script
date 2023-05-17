@@ -1,16 +1,13 @@
 // fetching the data from an api
 
-fetch( 'https://jsonplaceholder.typicode.com/posts')
-        .then( (response) => {
-            if( response.ok ) {
-                return response.json()
+fetch('https://pokeapi.co/api/v2/pokemon/ditto')
+    .then((res) => {
+        if( res.ok) {
+            return res.json();
         } else {
-            throw new Error('Something went wrong');
+            console.error(`Something went wrong!`);
         }
     })
-    .then( (data) => {
+    .then((data) => {
         console.log(data);
-    })
-    .catch( (error) => {
-        console.log(error);
-    } );
+    });

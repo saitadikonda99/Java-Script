@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border : 2px solid pink;
+    height: 60vh;
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but {
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: .1px solid rgb(23, 22, 22);
+    background-color:  salmon;
+}
