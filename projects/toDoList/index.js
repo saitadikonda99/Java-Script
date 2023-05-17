@@ -19,6 +19,8 @@ input.classList.add('in-box');
 inContainer.append(input);
 input.placeholder = 'Add a task.'
 
+  //                   <----- TADIKONDA SAI MANIKANTA ----->
+
 // button tag
 const button = document.createElement('button');
 button.classList.add('button');
