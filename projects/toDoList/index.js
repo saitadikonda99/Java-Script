@@ -117,9 +117,7 @@ button.addEventListener( 'click', () => {
 
 
     deleted.addEventListener('click', () => {
-      // Remove the task element when "deleted" button is clicked
       task.remove();
-      console.log('Task deleted');
     });
 
     done.addEventListener('click', () => {
